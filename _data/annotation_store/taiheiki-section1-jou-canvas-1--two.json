@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1--two.json",
+  "type": "AnnotationPage",
+  "label": " two",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "taiheiki-section1-jou-canvas-1--two-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "\"They're short poems and I'll just pause between poems. There should be numbers going up in back of me. One",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "13,27"
+        }
+      }
+    }
+  ]
+}

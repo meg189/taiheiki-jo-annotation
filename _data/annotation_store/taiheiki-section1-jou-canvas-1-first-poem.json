@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1-first-poem.json",
+  "type": "AnnotationPage",
+  "label": "first poem",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "taiheiki-section1-jou-canvas-1-first-poem-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Beginning of first poem",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "30"
+        }
+      }
+    }
+  ]
+}

@@ -23,6 +23,40 @@
         "id": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas",
         "type": "Canvas",
         "duration": 63.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1--two.json",
+            "label": {
+              "none": [" two"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1-first-poem.json",
+            "label": {
+              "none": ["first poem"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1-introduction.json",
+            "label": {
+              "none": ["introduction"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1-second-poem.json",
+            "label": {
+              "none": ["second poem"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/paintings",

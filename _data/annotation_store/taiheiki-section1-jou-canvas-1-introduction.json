@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1-introduction.json",
+  "type": "AnnotationPage",
+  "label": "introduction",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "taiheiki-section1-jou-canvas-1-introduction-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "\"The last poem I'll read this evening is a group. The group is called \"\"The Speed of Darkness.\"\"\"",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0,11"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://meg189.github.io/taiheiki-jo-annotation/annotations/taiheiki-section1-jou-canvas-1-second-poem.json",
+  "type": "AnnotationPage",
+  "label": "second poem",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "taiheiki-section1-jou-canvas-1-second-poem-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Beginning of second poem",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "53"
+        }
+      }
+    }
+  ]
+}
