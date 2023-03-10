@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Taiheiki Section1 - Jou" ] },
+    "homepage": [
+      {
+        "id": "https://filedn.com/lEigbNUr84lp5sQPxa5Ws9m/",
+        "type": "Text",
+        "label": { "en": [ "Taiheiki Section1 - Jou" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.pcloud.com/",
+        "type": "Agent",
+        "label": { "en": [ "pCloud" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 63.0,
+        "items": [
+          {
+            "id": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://filedn.com/lEigbNUr84lp5sQPxa5Ws9m/01-Taiheiki-no-jo.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 63.0
+                },
+                "target": "https://meg189.github.io/taiheiki-jo-annotation/taiheiki-section1-jou/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
